@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#sobrenosotros {
+    border-radius: 10px;
+    background-color: #cacaca;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+header {
+    background-color: #0D0B18;
+    color: white;
+    padding: 10px 0;
+    padding-bottom: 50px;
+}
+
+#logoTienda { /* Logo de la tienda, el # es para los ID NO OLVIDAR*/
+    width: 210px;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+.BarraNav {
+    max-width: 1200px; 
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+    padding-right: 15px;
+    position: relative;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-mini:hover {
+    background-color: #065fbe;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+    margin-bottom: 10px;
+    
+}
+
+#comida {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.grid {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    padding: 2rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.card {
+    background: #afafaf;
+    border-radius: 12px ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 260px;   
+    height: 350px;
+    transition: transform 0.3s; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: 333;
+    text-align: center;
+}
+
+.card p {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    flex-grow: 1;
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-mini {
+    display: inline-block; 
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold; 
+    margin-top: auto;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;  
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}

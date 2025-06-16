@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refrescos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <header> 
+        <nav class="BarraNav">
+            <img src="img/portada.png" alt="LogoTienda" id="logoTienda">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="comida.html">Productos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+        <form action="resultado3.html" id="formulario" method="GET">
+        <h2>Refrescos</h2>
+        <p>¿Cual es tu bebida preferida?:</p>
+        <label for="bebida"> Bebidas disponibles: </label>
+        <select id="bebida" required>
+            <option value="Cafe">Café</option>
+            <option value="Té helado">Té helado</option>
+            <option value="Gaseosa">Gaseosa</option>
+            <option value="Agua">Agua</option>
+            <option value="Capuccino">Capuccino</option>
+            <option value="Limonada">Limonada</option>
+            </select>
+        <label for="nombre_usuario"> Nombre del cliente</label>
+        <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+
+        <label for="cantidad"> Cantidad de bebidas </label>
+        <input type="number" id="cantidad" name="cantidad" required>
+
+        <button type="submit">Añadir al carrito</button>
+        <p>  </p>
+    
+</body>
+<footer>
+  © 2025 Tienda Virtual (Daron Becerra Conde). Todos los derechos reservados.
+</footer> 
+</html>
